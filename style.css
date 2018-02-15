@@ -1,0 +1,319 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html, body {
+	width: 100%;
+	height: 100%;
+	font-size: 14px;
+	font-weight: normal;
+}
+
+.background {
+	width: 100%;
+	height: 100%;
+	background-image: url(image/background.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	overflow-y: auto;
+}
+
+.nav {
+	width: 350px;
+	height: auto;
+	position: absolute;
+	top: 20%;
+	left: 0;
+}
+
+.nav a {
+	text-decoration: none;
+	font-size: 28px;
+	font-family: verdana;
+	font-weight: bold;
+	height: 90px;
+	margin: 5px 0;
+	float: left;
+	display: inline-block;
+	background-color: black;
+	color: white;
+	line-height: 90px;
+	text-align: center;
+	transition: 300ms;
+}
+
+a.active, .nav a:hover {
+	background-color: white;
+	color: black;
+	width: 100%;
+}
+
+.home {
+	width: 95%;
+}
+
+.aboutMe  {
+	width: 85%;
+}
+
+.gallery {
+	width: 80%;
+}
+
+.contactUs {
+	width: 90%;
+}
+
+.content {
+	position: absolute;
+	width: 930px;
+	min-height: 500px;
+	height: auto;
+	right: 0;
+	top: 10%;
+}
+
+.homePage {
+	position: absolute;;
+	right: 200px;
+	bottom: 130px;
+	color: white;
+	font-family: verdana;
+	text-transform: uppercase;
+}
+
+.homePage h1 {
+	font-size: 50px;
+	margin: 100px 0 0 0 ;
+	border-bottom: 1px solid white;
+	opacity: 0.9;
+}
+
+.homePage h3 {
+	font-size: 30px;
+	padding: 5px 0;
+	opacity: 0.6;
+}
+
+.homePage p {
+	font-size: 25px;
+}
+
+.logo {
+	width: 100px;
+	height: 100px;
+    margin: -34px -14px -88px 241px;
+    border-radius: 20px;
+}
+
+.aboutPage {
+	position: absolute;;
+	left: 350px;
+	top: 100px;
+	color: white;
+	font-family: century gothic;
+	padding: 0 60px;
+	display: none;
+}
+
+.aboutPage p {
+	font-size: 18px;
+	line-height: 28px;
+	margin-bottom: 15px;
+}
+
+.info {
+	float: left;
+	border-bottom: 1px solid white;
+}
+
+.educationHeader {
+	margin: 178px 100px 0 0;
+	height: 35px;
+	width: 121px;
+}
+
+.trainingHeader {
+	
+	margin: 46px 200px 0 0;
+	height: 35px;
+	width: 121px;
+}
+
+.projectHeader {
+	margin: 46px 180px 0 0;
+	height: 35px;
+	width: 121px;
+}
+
+.education {
+	margin: -40px 0 0 200px;
+	height: 100px;
+	width: 800px;
+}
+
+.training {
+	margin: -40px 0 0 200px;
+	height: 100px;
+	width: 800px;
+}
+
+.skillInfo1 {
+	
+	margin: -22px 0 0 200px;
+	height: 330px;
+	width: 200px;
+}
+
+.skillInfo2 {
+	
+    margin: -330px 0 0 411px;
+    height: 330px;
+    width: 201px;
+}
+
+.skillData p {
+	font-size: 18px;
+}
+
+.skillData b {
+	font-size: 20px;
+}
+
+.projectData {
+	margin: -40px 0 0 200px;
+	height: 100px;
+	width: 800px;
+}
+
+.trainingData b{
+	font-size: 20px;
+}
+
+.educationField b {
+	font-size: 20px;
+}
+
+.traningData p {
+	font-size: 18px;
+}
+
+.educationField p {
+	font-size: 18px;
+}
+
+.projectDataField p {
+	font-size: 18px;
+}
+
+.projectDataField b {
+	font-size: 20px;
+}
+
+.border1 {
+	border-bottom: 1px solid black;
+	margin: 15px 0 17px 0;
+
+}
+
+.border {
+	border-bottom: 1px solid black;
+	margin: 249px 0 17px 0;
+
+}
+
+.galleryPage {
+	position: relative;
+	right: 10px;
+	margin-left: 250px;
+	top: 100px;
+	max-height: 500px;
+	color: white;
+	padding: 0 60px;
+	display: none;
+}
+
+
+.galleryPageHeader {
+	position: relative;
+	margin: 20px 10px 10px 430px;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+
+.galleryPage .image {
+	width: 25%;
+	margin: 2%;
+	float: right;
+}
+
+.pdf {
+	width: 100%;
+	transition: all ease 0.5s;
+	-webkit-transition: all ease 0.5s;
+	transform: scale(1);
+	-webkit-transform: scale(1);
+}
+
+.pdf:hover {
+	transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+}
+
+.contactUsPage {
+	position: absolute;
+	right: 370px;
+	top: 120px;
+	color: white;
+	padding: 0 60px;
+	display: none;
+}
+
+.inputText {
+	width: 55%;
+	height: 65px;
+	border: 3px solid black;
+	color: black;
+	background-color: rgba(0,0,0,0,7);
+	font-size: 20px;
+	padding: 0 10px;
+	float: left;
+	margin-bottom: 15px;
+}
+
+.inputMessage {
+	width: 55%;
+	height: 165px;
+	border: 3px solid black;
+	color: black;
+	background-color: rgba(0,0,0,0,7);
+	font-size: 20px;
+	padding: 0 10px;
+	float: left;
+}
+
+.submitButton {
+	width: 160px;
+	height: 65px;
+	background-color: white;
+	color: black;
+	font-size: 28px;
+	border: none;
+	font-weight: bold;
+	font-family: arial;
+	float: left;
+	clear: both;
+	margin-top: 25px;
+}
+
+.footer {
+	opacity: 0.5;
+	float: right;
+	font-weight: solid;
+	font-size: 15px;
+	background-color: white;
+}
+
+
